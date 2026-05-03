@@ -62,6 +62,7 @@ const GoogleAnalytics = lazy(() => import("./pages/admin/GoogleAnalytics"));
 const AdminCategories = lazy(() => import("./pages/admin/Categories"));
 const SocialProofMessages = lazy(() => import("./pages/admin/SocialProofMessages"));
 const BackupRestore = lazy(() => import("./pages/admin/BackupRestore"));
+const ModeratorManagement = lazy(() => import("./pages/admin/ModeratorManagement"));
 
 // Marketing components - deferred to avoid query storms on initial load
 const DeferredMarketing = lazy(() => import("@/components/marketing/DeferredMarketing"));
@@ -144,6 +145,7 @@ const App = () => (
                   <Route path="/admin/bulk-add" element={<BulkAddProducts />} />
                   <Route path="/admin/staff-permissions" element={<StaffPermissions />} />
                   <Route path="/admin/courier-integration" element={<CourierIntegration />} />
+                  <Route path="/admin/moderators" element={<ModeratorManagement />} />
                   <Route path="/admin/referrals" element={<ReferralDashboard />} />
                   <Route path="/admin/meta-pixel" element={<MetaPixel />} />
                   <Route path="/admin/google-analytics" element={<GoogleAnalytics />} />

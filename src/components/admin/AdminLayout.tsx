@@ -38,6 +38,7 @@ const navItems = [
   { path: "/admin/bulk-edit", icon: Edit3, label: "Bulk Edit" },
   { path: "/admin/bulk-add", icon: Package, label: "Bulk Add Products" },
   { path: "/admin/staff-permissions", icon: Shield, label: "Staff Permissions" },
+  { path: "/admin/moderators", icon: Shield, label: "Moderators" },
   { path: "/admin/courier-integration", icon: Route, label: "Courier Integration" },
   { path: "/admin/referrals", icon: Gift, label: "Referral Dashboard" },
   { path: "/admin/social-proof", icon: ShoppingBag, label: "Social Proof" },
